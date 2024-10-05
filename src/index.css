@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containerBlock {
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: inset;
+}
+.reference {
+    font-size: 12px;
+    color: #585858;
+}
+blockquote {
+    color: #555555;
+    padding: 19.2px 50px 19.2px 30px;
+    border-right: 8px solid rgb(83, 104, 5);
+    line-height: 1.6;
+    position: relative;
+    background: #EDEDED;
+    font-size: 18px;
+}
+blockquote span.by {
+    display: block;
+    color: #333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 16px;
+    text-align: right;
+}
