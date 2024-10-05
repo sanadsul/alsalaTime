@@ -106,7 +106,7 @@ useEffect(() => {
         </nav> */}
         {/* Header Section */}
         <header
-          className="bg-[url('public/image1.jpg')] bg-cover bg-center bg-no-repeat text-white p-32 pt-1 shadow-lg rounded-b-2xl"
+          className="bg-[url('/image1.jpg')] bg-cover bg-center bg-no-repeat text-white p-32 pt-1 shadow-lg rounded-b-2xl"
           style={{ backgroundSize: "100%" }}  // غيّرنا من 100% إلى cover
         >
           <div className="container mx-auto text-center justify-center items-center m-4">
