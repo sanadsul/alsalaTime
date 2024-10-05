@@ -37,8 +37,8 @@ const Home = () => {
     // };
 
     // دالة لجلب أوقات الصلاة بناءً على المدينة والدولة
-    const apiUrl = import.meta.env.VITE_API_URL;
-const apiUrlLocation = import.meta.env.VITE_API_URL_LOCATION;
+    const apiUrl = import.meta.env.API_URL;
+const apiUrlLocation = import.meta.env.API_URL_LOCATION;
 
 const fetchPrayerTimesByCityCountry = async () => {
     const response = await fetch(`${apiUrl}?city=${city}&country=${country}`);
