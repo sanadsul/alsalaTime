@@ -359,7 +359,7 @@ useEffect(() => {
               </section>
               
         {/* Footer Section */}
-        <footer className="bg-gradient-to-r from-teal-500 to-blue-700 text-white py-3 font-bold">
+        <footer className="bg-gradient-to-r from-teal-500 to-blue-700 text-white m-0 font-bold">
           <div className="container mx-auto text-center">
             <p> جميع الحقوق محفوظة © 2024 - سند المنفي</p>
           </div>
