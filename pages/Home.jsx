@@ -359,11 +359,13 @@ useEffect(() => {
               </section>
               
         {/* Footer Section */}
+        <div className="mb-4">
         <footer className="bg-gradient-to-r from-teal-500 to-blue-700 text-white m-0 font-bold">
           <div className="container text-center">
             <p> جميع الحقوق محفوظة © 2024 - سند المنفي</p>
           </div>
         </footer>
+       <div/>
       </div>
     );
 };
