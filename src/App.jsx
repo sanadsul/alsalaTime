@@ -6,7 +6,7 @@ const App = () => {
   return (
     <Routes>
       <Route path='/' errorElement={<Errorpage />}  index element={<Home />} />
-      <Route path='/*' element={<Errorpage/> } errorElement={<Errorpage />} />
+      <Route path='*' element={<Errorpage/> } errorElement={<Errorpage />} />
     </Routes>
   )
 }
