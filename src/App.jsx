@@ -5,8 +5,8 @@ import ComplexNavbar from './components/Navbar';
 const App = () => {
   return (
     <Routes>
-      <Route path='/' errorElement={<Errorpage />}  index element={<Home />} />
-      <Route path='*' element={<Errorpage/> } errorElement={<Errorpage />} />
+      <Route path='/'  index element={<Home />} />
+      <Route path='*' element={<Errorpage/> } />
     </Routes>
   )
 }
